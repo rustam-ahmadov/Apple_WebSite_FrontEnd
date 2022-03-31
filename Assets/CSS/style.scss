@@ -161,22 +161,58 @@ body {
 
             }
         }
-        .movie{
+        .coda{
             background-image: url(../images/hero_coda.jpg);
           
-            span{
+            .movie{
+                color: #fff;
+                height: 100%;               
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 
-                padding: auto;
-                border: 0;
-                font-size: 21px;
-                line-height: 1.19048;
-                font-weight: 600;
-                letter-spacing: .011em;
-                color: #f5f5f7;
-                display: table;
-                margin: 0 auto;
+                
+                .header{
+                    padding-top: 61px;
+                    
+                    p{
+                        
+                        color: #fff;                                             
+                        margin: 0px;
+                        font-size: 22px;
+                        
+                    }
+                    div{
+                        background-image: url(../logos/hero_logo_coda__egdgy3v1cyc2_large.png);
+                        margin-top: 5px;
+                        height: 50px;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+                .bottom{
+                    h2{
+                        margin: 11px auto 0px;
+                        font-size: 28px;
+                        text-align: center;
+                        text-transform: uppercase;
+                        color: #fff;
+                    }
+                    a{
+                        color: white;
+                        font-size: 21px;
+                        
+                        &::after{
+                            content: "\25B6";
+                        }
+                    }
+                }
             }
+
+            
+            
         }
+
     }
 
    
